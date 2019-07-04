@@ -8,7 +8,7 @@ link:https://hub.docker.com/r/asciidoctor/docker-asciidoctor/[Asciidoctor docker
 
 .コンテナを起動
 ----
-docker run --rm -it -v $(pwd):/documents uochan/docker-asciidoctor-jp
+docker run --rm -it -v $(pwd):/documents hayakawa314/docker-asciidoctor-jp
 ----
 
 .PDFの生成
