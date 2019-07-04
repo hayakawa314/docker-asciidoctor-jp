@@ -1,5 +1,5 @@
 FROM asciidoctor/docker-asciidoctor
-MAINTAINER uochan
+MAINTAINER hayakawa314
 
 RUN gem install asciidoctor-pdf-cjk-kai_gen_gothic --no-ri --no-rdoc && \
     gem install --version '0.12.7' compass --no-ri --no-rdoc && \

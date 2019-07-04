@@ -1,2 +1,2 @@
 all:
-	docker build --rm -t uochan/docker-asciidoctor-jp .
+	docker build --rm -t hayakawa314/docker-asciidoctor-jp .
